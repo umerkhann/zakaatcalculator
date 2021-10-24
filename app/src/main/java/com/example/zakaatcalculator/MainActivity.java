@@ -23,6 +23,10 @@ public class MainActivity extends AppCompatActivity {
                 new View.OnClickListener() {
                     @Override
                     public void onClick(View view) {
+                        cash = (EditText) findViewById(R.id.cash);
+                        savings = (EditText) findViewById(R.id.savings);
+                        loan = (EditText) findViewById(R.id.loan);
+                        gold = (EditText) findViewById(R.id.gold);
                         
                     }
                 }
