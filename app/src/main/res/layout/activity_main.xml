@@ -15,6 +15,7 @@
         android:text="Zakaat Calculator"
         android:textAlignment="center"
         android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="#009688"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -23,12 +24,13 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0" />
 
-        <TextView
+    <TextView
         android:id="@+id/cashText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
         android:text="Cash in hand or in bank"
+        android:textColor="#009688"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView6" />
@@ -50,6 +52,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:text="Savings"
+        android:textColor="#009688"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/cash" />
@@ -72,6 +75,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:text="Gold/Silver"
+        android:textColor="#009688"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/savings" />
@@ -94,6 +98,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:text="Loan"
+        android:textColor="#009688"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
@@ -117,16 +122,21 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
         android:text="Calculate Zakaat"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#009688"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/loan" />
+
 
     <TextView
         android:id="@+id/payableZakaatText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Payable Zakaat"
+        android:textColor="#009688"
+        android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
