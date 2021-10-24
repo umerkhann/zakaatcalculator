@@ -27,6 +27,7 @@ public class MainActivity extends AppCompatActivity {
                         savings = (EditText) findViewById(R.id.savings);
                         loan = (EditText) findViewById(R.id.loan);
                         gold = (EditText) findViewById(R.id.gold);
+                        double totalAmount = Double.parseDouble(cash.getText().toString()) + Double.parseDouble(savings.getText().toString()) + Double.parseDouble(gold.getText().toString()) - Double.parseDouble(loan.getText().toString());
                         
                     }
                 }
