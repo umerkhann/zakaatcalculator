@@ -15,6 +15,18 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        
+        Button calBtn;
+        calBtn = findViewById(R.id.calBtn);
+        TextView payableZakaatText = findViewById(R.id.payableZakaatText);
+
+        calBtn.setOnClickListener(
+                new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+                        
+                    }
+                }
+        );
+
     }
 }
