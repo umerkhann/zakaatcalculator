@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
                         double totalAmount = Double.parseDouble(cash.getText().toString()) + Double.parseDouble(savings.getText().toString()) + Double.parseDouble(gold.getText().toString()) - Double.parseDouble(loan.getText().toString());
                         double calculatedZakat = totalAmount*0.025;
 
-                        String payableZakat = totalAmount >= 835871.4 ? String.format("Payable Zakaat: %s PKR", calculatedZakat) : "Zakat is not applicable on you.";
+                        String payableZakat = totalAmount >= 80933 ? String.format("Payable Zakaat: %s PKR", calculatedZakat) : "Zakat is not applicable on you.";
 
                         payableZakaatText.setText(payableZakat);
                     }
